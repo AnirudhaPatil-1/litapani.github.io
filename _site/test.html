@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test different functions</title>
+    <style>
+      .box {
+        width: 300px;
+        background-color: #808080;
+      }
+      .border {
+        border: 10px solid black;
+        padding: 40px;
+      }
+      .box-sizing {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Box Sizing</h1>
+    <div class="box">width 300px</div>
+    <div class="box border">width 300px padding 40px border 10px</div>
+    <div class="box border box-sizing">
+      width 300px padding 40px border 10px model of box-sizing : border-box
+    </div>
+  </body>
+</html>

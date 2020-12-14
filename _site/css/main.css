@@ -1,0 +1,228 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+strong,
+b {
+  font-weight: bold;
+}
+em,
+i {
+  font-style: italic;
+}
+a img {
+  border: none;
+}
+/* END RESET*/
+
+/* GLOBAL SYTLES */
+body {
+  font-family: helvetica, Arial, sans-serif;
+}
+a {
+  color: red;
+}
+h1 {
+  margin-top: 0;
+  font-size: 7vw;
+}
+
+/* HERO STYLES */
+.full-hero {
+  background-color: #c7dbfc;
+  width: 100vw;
+  height: 50vh;
+}
+
+/* sOCIAL STYLES */
+.socia-link {
+  /* color: #0000ff; */
+  background: rgba(150, 150, 150, 0.5);
+  border-radius: 99px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2.5em;
+  padding: 0.85em 0 0;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 2.5em;
+  line-height: 1;
+}
+
+.socia-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.socia-list > li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+/* BIO-STYLES */
+.bio-wrapper {
+  font-size: 24px;
+  overflow: hidden;
+  max-width: 960px;
+  margin: auto;
+}
+/* .bio-wrapper:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+  } */
+.bio-box {
+  border: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+  font-size: 1rem;
+  padding: 0 2% 2%;
+  width: 23%;
+  margin: 40px 1% 0;
+}
+.bio-box img {
+  width: 100%;
+}
+.bio-box .socia-link {
+  display: block;
+  margin: 2em 0 1em;
+}
+.bio-box h3 {
+  font-size: 1.5em;
+  color: #ffffff;
+  margin: -40px 0 1em;
+  text-align: center;
+}
+.bio-copy {
+  font-size: 1em;
+  line-height: 1.5;
+}
+.bio-copy a {
+  color: green;
+}
+/* .bio-passage {
+    clear: left;
+  } */
