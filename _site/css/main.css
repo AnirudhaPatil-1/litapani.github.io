@@ -181,6 +181,8 @@ h2 + p {
 }
 .header-nav a {
   color: #fff;
+  text-decoration: none;
+  
 }
 .nav-links a:hover,
 .nav-links a:active {
@@ -226,6 +228,7 @@ h2 + p {
 }
 .footer-nav a {
   color: #ccc;
+  text-decoration: none;
 }
 .footer-logo img {
   width: 50px;
@@ -244,6 +247,7 @@ h2 + p {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+  
 }
 
 /* HERO STYLES */
@@ -277,6 +281,7 @@ h2 + p {
 .hero-content .socia-link {
   background-color: rgba(255, 255, 255, 0.8)
   color: ##557c83;
+
 }
 .hero-content .socia-link:hover{
   background-color: #000;
