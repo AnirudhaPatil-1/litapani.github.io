@@ -625,3 +625,10 @@ h2 + p {
     font-style: italic;
     font-size: 0.8em;
   }
+
+  @media ( max-width: 800px ) {
+    html{
+      box-shadow: none;
+      padding: 0;
+    }
+  }
