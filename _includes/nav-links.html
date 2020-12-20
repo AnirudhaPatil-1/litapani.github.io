@@ -1,4 +1,14 @@
 <li><a href="/">Home</a></li>
 <li><a href="/gallery">gallery</a></li>
-<li><a href="/blog">blog</a></li>
+<li class="drop-down">
+  <a href="/blog" class="drop-trigger">blog</a>
+  <ul class="drop-menu">
+    {% for post in site.posts limit:5 %}
+    <li>Recent Posts</li>
+    <li>
+      <a href=" {{ post.url }} "> {{ post.title }} </a>
+    </li>
+    {% endfor %}
+  </ul>
+</li>
 <li><a href=" {{ site.posts.first.url }} ">Newest Post</a></li>
