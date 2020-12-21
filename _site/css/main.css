@@ -136,7 +136,7 @@ html {
   box-shadow: 0 0 0 30px #000 inset;
 }
 body {
-  font-family: helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -152,6 +152,10 @@ body {
 }
 a {
   color: #6397b5;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
 }
 h1 {
   margin-top: 0;
@@ -485,14 +489,14 @@ h2 + p {
   color: #ffffff;
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
-  padding: 0.85em 0 0;
+  height: 1.5em;
+  padding: 0.25em 0 0;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
   line-height: 1;
 }
 
